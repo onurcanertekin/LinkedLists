@@ -5,7 +5,7 @@ This project will demonstrate linked lists in C# with EF Core .Net 7.0 Web Api, 
 ### TODO
 
 - [x] Init project
-- [ ] Use CodeFirst with PostgreSql database
+- [x] Use CodeFirst with PostgreSql database
 - [ ] Add New Services
 - [ ] Add Doubly linked lists
 - [ ] Add Operations with linked lists
