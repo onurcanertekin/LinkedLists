@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedLists.DTO", "LinkedLi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedLists.Ui", "LinkedLists.Ui\LinkedLists.Ui.csproj", "{8CC2F18B-60F6-4075-AD80-DF2D51041BE6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedLists.Database", "LinkedLists.Database\LinkedLists.Database.csproj", "{D88A1144-3C43-440F-A060-44DC1513874B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8CC2F18B-60F6-4075-AD80-DF2D51041BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CC2F18B-60F6-4075-AD80-DF2D51041BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CC2F18B-60F6-4075-AD80-DF2D51041BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D88A1144-3C43-440F-A060-44DC1513874B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D88A1144-3C43-440F-A060-44DC1513874B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D88A1144-3C43-440F-A060-44DC1513874B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D88A1144-3C43-440F-A060-44DC1513874B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,8 +1,10 @@
+using LinkedLists.Database;
 using LinkedLists.Service.Absolute;
 using LinkedLists.Service.Concrete;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddDbContext<LinkedListsContext>(opt => opt.UseNpgsql(builder.Configuration.GetConnectionString("Default")));
 // Add services to the container.
 
 builder.Services.AddControllers();
